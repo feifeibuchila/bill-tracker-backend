@@ -2,9 +2,8 @@
   "name": "server",
   "private": true,
   "type": "module",
-    "scripts": {
+  "scripts": {
     "build": "node build.js",
-    "dev": "bash ../.cozeproj/scripts/server_dev_run.sh",
     "start": "NODE_ENV=production PORT=${PORT:-9091} node dist/index.js"
   },
   "dependencies": {
